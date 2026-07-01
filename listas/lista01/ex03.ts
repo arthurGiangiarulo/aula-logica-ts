@@ -1,9 +1,9 @@
-let input: string | null = prompt("10");
-let numero: number = input !== null ? parseFloat(input) : 0;
+let inputValue: string | null = prompt("10");
+let numerovValor: number = inputValue !== null ? parseFloat(inputValue) : 0;
 
-let antecessor: number = numero - 1;
-let sucessor: number = numero + 1;
+let antecessor: number = numerovValor - 1;
+let sucessor: number = numerovValor + 1;
 
-alert(`Número: ${numero}`);
+alert(`Número: ${numerovValor}`);
 alert(`Antecessor: ${antecessor}`);
 alert(`Sucessor: ${sucessor}`);
